@@ -8,6 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Product product = new Product();
+        product.setName("Молоко");
+        product.setPrice(75);
+
+        System.out.println(product.getName() + " - " + product.getPrice());
     }
 }
